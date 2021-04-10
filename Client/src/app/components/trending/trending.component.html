@@ -1,0 +1,7 @@
+<h3>Trending Gifs:</h3>
+<div class="row">
+  <div *ngFor="let gif of trendingGifs" class="col-md-3 mb-4">
+    <div>{{gif.title}}</div>
+    <img src="{{gif.url}}" width="100%">
+  </div>
+</div>

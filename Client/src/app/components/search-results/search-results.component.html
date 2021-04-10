@@ -1,0 +1,7 @@
+<h3>Search Resoults of Gifs For {{term}}:</h3>
+<div class="row">
+  <div *ngFor="let gif of searchResoults" class="col-md-3 mb-4">
+    <div>{{gif.title}}</div>
+    <img src="{{gif.url}}" width="100%">
+  </div>
+</div>

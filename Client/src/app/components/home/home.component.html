@@ -1,0 +1,24 @@
+<div class="container-fluid">
+  <h1 class="text-center mt-4">Gif Explorer</h1>
+
+  <div class="row mt-4">
+    <div class="col-3 mx-auto">
+      <form #f="ngForm" class="form-inline" (ngSubmit)="onSubmit(f)">
+        <div class="form-group">
+          <label for="term">Search Gif</label>
+          <input type="text" #term="ngModel" ngModel name="term" class="form-control ml-2" placeholder="">
+          <button type="submit" class="btn btn-primary mr-2" [disabled]="term.value.trim()=='' ? true : null">Search</button>
+          <a href="#" (click)="isShowSearchResults=false">Show Trending</a>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <div class="row mt-4">
+    <div class="col">
+      <app-search-results *ngIf="isShowSearchResults" #searchResoults></app-search-results>
+      <app-trending *ngIf="!isShowSearchResults"></app-trending>
+    </div>
+  </div>
+
+</div>

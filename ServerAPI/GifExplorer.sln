@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GifExplorerAPI", "GifExplorer\GifExplorerAPI.csproj", "{FF76E24D-CD48-4224-A7F8-42AD8FC50A82}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FF76E24D-CD48-4224-A7F8-42AD8FC50A82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF76E24D-CD48-4224-A7F8-42AD8FC50A82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF76E24D-CD48-4224-A7F8-42AD8FC50A82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF76E24D-CD48-4224-A7F8-42AD8FC50A82}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4A24C06B-4309-41E5-BC3B-2E8A3531CCA0}
+	EndGlobalSection
+EndGlobal
